@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff7ed;
+  color: #2f2a1f;
+  line-height: 1.6;
+}
+
+a {
+  color: #7c3aed;
+  text-decoration: none;
+}
+
+.hero {
+  min-height: 100vh;
+  padding: 30px 8%;
+  background: linear-gradient(135deg, #fff7ed, #fde68a, #d8b4fe, #99f6e4);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #3b2f1e;
+}
+
+.nav-links a {
+  margin-left: 24px;
+  font-weight: bold;
+  color: #4c1d95;
+}
+
+.hero-content {
+  max-width: 850px;
+}
+
+.tag {
+  color: #6d28d9;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  font-size: 52px;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  color: #2f2418;
+}
+
+.summary {
+  max-width: 700px;
+  color: #4b4237;
+  font-size: 18px;
+}
+
+.hero-buttons {
+  margin-top: 35px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px 24px;
+  border-radius: 999px;
+  margin-right: 12px;
+  font-weight: bold;
+}
+
+.primary {
+  background: #7c3aed;
+  color: #ffffff;
+}
+
+.secondary {
+  border: 2px solid #7c3aed;
+  color: #4c1d95;
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.section {
+  padding: 80px 8%;
+  background: #fffaf0;
+}
+
+.section:nth-child(even) {
+  background: #f5f3ff;
+}
+
+.section h2 {
+  font-size: 34px;
+  margin-bottom: 30px;
+  color: #3b2f1e;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.skills-grid span {
+  background: #ffffff;
+  border: 1px solid #d8b4fe;
+  padding: 12px 16px;
+  border-radius: 999px;
+  color: #4c1d95;
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.08);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.project-card {
+  background: #ffffff;
+  border: 1px solid #e9d5ff;
+  border-radius: 20px;
+  padding: 26px;
+  box-shadow: 0 18px 35px rgba(124, 58, 237, 0.12);
+}
+
+.project-card h3 {
+  margin-bottom: 14px;
+  color: #3b2f1e;
+}
+
+.project-card p {
+  color: #4b4237;
+  margin-bottom: 18px;
+}
+
+.counter-section {
+  background: linear-gradient(135deg, #ede9fe, #ccfbf1, #fef3c7);
+  text-align: center;
+}
+
+#visitor-count {
+  color: #7c3aed;
+  font-weight: bold;
+}
+
+.contact {
+  background: #fff7ed;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: block;
+    margin-bottom: 60px;
+  }
+
+  .nav-links {
+    margin-top: 20px;
+  }
+
+  .nav-links a {
+    display: inline-block;
+    margin: 8px 12px 8px 0;
+  }
+
+  .hero h2 {
+    font-size: 34px;
+  }
+}
